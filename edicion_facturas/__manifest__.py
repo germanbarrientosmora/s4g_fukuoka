@@ -19,6 +19,7 @@
     'depends': [
         'base',
         'account_accountant',
+        'account_invoicing',
         'edicion_contactos',
         'web_widget_color',
     ],
@@ -26,6 +27,7 @@
     'data': [
         'views/empresa_enfacturacion_view.xml',
         'reports/edicion_facturas_report.xml',
+        'views/invoice_lines_view_extended.xml',
     ],
     'installable':True,
     'auto_install':False,
