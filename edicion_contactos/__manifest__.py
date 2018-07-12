@@ -21,8 +21,9 @@
 
     'depends': [
         'base',
+        'contacts',
         'web_widget_color',
-        'sale'
+        'sale',
     ],
 
     'data': [
