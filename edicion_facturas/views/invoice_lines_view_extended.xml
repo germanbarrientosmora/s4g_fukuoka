@@ -16,6 +16,7 @@
 		<record id="ops4g_invoice_lines_action_extended" model="ir.actions.act_window">
 			<field name="name">Productos facturados</field>
 			<field name="res_model">account.invoice.line</field>
+			<field name="domain">[('invoice_date', 'not like', ' ')]</field>
 			<field name="view_mode">tree,graph,pivot,form</field>
 		</record>
 
